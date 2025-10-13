@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>JasaTravel — Bepergian Dengan Mudah</title>
+    <link rel="icon" type="image/png" href="assets/logo/wc-logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">JasaTravel</div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#">Home</a>
+          <a href="#tentang-kami">Tentang Kami</a>
+          <a href="#layanan">Layanan</a>
+          <a href="#formulir">Formulir</a>
+          <a href="#footer">Kontak</a>
+        </nav>
+
+        <div class="header-cta">
+          <button class="btn-outline">Daftar Sekarang</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Bepergian mudah hanya menggunakan <span> JasaTravel </span></h1>
+          <p class="lead">
+            JasaTravel melayani anda untuk bepergian ataupun pengantaran barang
+            ke dalam atau luar kota.
+          </p>
+          <div class="hero-actions">
+            <a class="btn-primary" href="#courses">Lihat layanan</a>
+            <a class="trust" href="#reviews">Lebih dari 1000+ testimonial →</a>
+          </div>
+        </div>
+
+        <div class="hero-cards">
+          <div class="card small">
+            <img src="/assets/bus-image.jpg" alt="" />
+            <h4>Kantor Pusat JasaTravel</h4>
+            <p>Menyiapkan banyak pilihan kendaraan.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFIT -->
+    <section class="features container" id="tentang-kami">
+      <h2>Keunggulan JasaTravel</h2>
+      <p class="muted">
+        JasaTravel menghadirkan beberapa keunggulan sebagai berikut.
+      </p>
+
+      <div class="features-grid">
+        <div class="feature">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 6h12v2H6zM6 11h12v2H6zM6 16h12v2H6z"></path>
+          </svg>
+          <h3>Keamanan Terjamin</h3>
+          <p>Keamanan penumpang dan barang dipastikan terjamin.</p>
+        </div>
+
+        <div class="feature">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M12 2l3 7h7l-5.7 4.1L20 22l-8-5-8 5 1.7-8.9L.9 9h7L12 2z"
+            ></path>
+          </svg>
+          <h3>Pelayanan cepat</h3>
+          <p>JasaTravel melayani customer dengan telaten dan cepat.</p>
+        </div>
+
+        <div class="feature">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M12 21a9 9 0 100-18 9 9 0 000 18zM11 6h2v6h-2zM11 14h2v2h-2z"
+            ></path>
+          </svg>
+          <h3>Customer Service 24/7</h3>
+          <p>JasaTravel melayani customer setiap harinya.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICE -->
+    <section class="services container" id="layanan">
+      <h2>Pelayanan Kami</h2>
+      <p class="muted">
+        Kami melayani dari antar jemput penumpang hingga barang.
+      </p>
+
+      <div class="services-grid">
+        <article class="service-card">
+          <img
+            src="assets/pelayanan/travel-antar-kota.jpg"
+            alt="Travel Antar Kota"
+          />
+          <h4>Travel Antar Kota</h4>
+          <p>Layanan travel ke luar kota.</p>
+          <a class="link-more" href="#">Lebih lanjut →</a>
+        </article>
+
+        <article class="service-card">
+          <img
+            src="assets/pelayanan/pengantaran-barang.jpg"
+            alt="Pengantaran Barang"
+          />
+          <h4>Pengantaran Barang</h4>
+          <p>Kami meleyani pengantaran barang ke luar kota.</p>
+          <a class="link-more" href="#">Lebih lanjut →</a>
+        </article>
+
+        <article class="service-card">
+          <img src="assets/pelayanan/rental-car.jpg" alt="Sewa Kendaraan" />
+          <h4>Sewa Kendaraan</h4>
+          <p>
+            Kami menyediakan penyewaan kendaraan dari mobil kecil hingga besar.
+          </p>
+          <a class="link-more" href="#">Lebih lanjut →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- FORM -->
+    <section class="container form-daftar">
+      <h2 class="form-daftar-h2">Daftar Sekarang</h2>
+      <div class="row">
+        <!-- Image -->
+        <div class="col-md-6 d-none d-md-block bg-image"></div>
+
+        <div class="col-md-6 form-container">
+          <div class="form-box shadow p-4 bg-white rounded">
+            <h4 class="mb-3 text-center">Isi Detail Dirimu!</h4>
+            <form>
+              <div class="mb-3">
+                <label for="email" class="form-label">Nama</label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="name"
+                  placeholder="Masukkan nama"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Masukkan email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  placeholder="Password"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Layanan</label>
+                <select id="layanan">
+                  <option value="Antar Penumpang">Antar Penumpang</option>
+                  <option value="Antar Barang">Antar Barang</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label for="kota" class="form-label">Kota Tujuan</label>
+                <input
+                  type="kota"
+                  class="form-control"
+                  id="kota"
+                  placeholder="Masukkan kota tujuan"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary">Daftar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials container">
+      <h2>Apa kata pelanggan JasaTravel</h2>
+      <p class="muted">Kami terbuka untuk setiap masukan pelanggan.</p>
+
+      <div class="testimonials-grid">
+        <blockquote class="testimonial">
+          <p>“Pelayanan sangat cepat dan fleksibel.”</p>
+          <footer>— Rini Halim</footer>
+        </blockquote>
+
+        <blockquote class="testimonial">
+          <p>
+            “Saya naik bus dari JasaTravel berasa naik pesawat First Class.”
+          </p>
+          <footer>— Budi Santoso</footer>
+        </blockquote>
+
+        <blockquote class="testimonial">
+          <p>“Barang sampai tujuan dengan selamat. Mantep pokoknya!”</p>
+          <footer>— Ilham Hamud</footer>
+        </blockquote>
+
+        <blockquote class="testimonial">
+          <p>“Pelayanan sangat ramah dan juga cepat.”</p>
+          <footer>— Yanto Gasur</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq container">
+      <h2>Pertanyaan yang sering muncul.</h2>
+      <div class="faq-columns">
+        <div class="detail-container">
+          <details open>
+            <summary>Apakah bisa ke luar pulau?</summary>
+            <p>Ya, kami melayani pengantaran hingga luar pulau Indonesia.</p>
+          </details>
+
+          <details open>
+            <summary>Apakah kendaraan sudah terjamin keamanannya?</summary>
+            <p>
+              Tentu, kami menggunakan kendaraan dari komunitas ternama dan akan
+              dicek terlebih dahulu sebelum keberangkatan.
+            </p>
+          </details>
+        </div>
+
+        <div class="detail-container">
+          <details open>
+            <summary>Apakah akan diberikan konsumsi dalam perjalanan?</summary>
+            <p>
+              Tentu, kami akan memberikan pelayanan berupa konsumsi jika
+              perjalanan lebih dari 2 jam.
+            </p>
+          </details>
+
+          <details open>
+            <summary>Bagaimana jika barang yang dikirim rusak?</summary>
+            <p>Kami akan menindak hal tersebut sesuai kesepakatan bersama.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="cta-banner" id="footer">
+      <div class="container cta-inner">
+        <div class="col">
+          <h3>Siap jalan-jalan?</h3>
+          <p>Contact - 0812921831290</p>
+        </div>
+
+        <a href="#" class="btn-primary">Daftar Sekarang</a>
+      </div>
+    </section>
+  </body>
+</html>
