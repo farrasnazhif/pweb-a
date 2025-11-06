@@ -1,7 +1,9 @@
-# LaundryCrafty — Fullstack PHP + MySQL (MAMP/XAMPP) Ready Project (English)
+# LaundryCrafty, Fullstack PHP + MySQL 
 
 This is a ready-to-run sample web application for a laundry management system using
-PHP 8.x, MySQL, and Bootstrap + vanilla JavaScript for the frontend.
+PHP 8.x and MySQL.
+
+I use simple HTML and CSS for the frontend as well.
 
 ## Quick setup
 1. Place the `laundrycrafty/` folder into your web server directory (`htdocs` for XAMPP/MAMP, `www` for Laragon).
@@ -15,5 +17,3 @@ PHP 8.x, MySQL, and Bootstrap + vanilla JavaScript for the frontend.
 - CRUD for customers, services, and transactions.
 - Dashboard with simple stats and Chart.js revenue graph (data from API endpoint).
 - API endpoint `api/transaksi.php` for revenue data (last N days).
-
-This is a minimal, educational project intended to be extended and secured before production use.
